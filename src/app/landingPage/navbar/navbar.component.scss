@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  font-family: "Raleway";
+  justify-content: space-between;
+  align-items: center;    
+  padding: 32px;
+  > img {
+    width: 64px;
+    height: 64px;
+  }
+  > div {
+    display: flex;
+    > a {
+      &:hover {
+        color: rgb(245, 131, 131);
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.nav-right-hand-side {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.phone-btn {
+  display: flex;
+  background-color: red;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  gap: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  > img {
+    width: 20px;
+    height: 20px;
+  }
+  &:hover {
+    background-color: rgb(250, 64, 64);
+  }
+}
