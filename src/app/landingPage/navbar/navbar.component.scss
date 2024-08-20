@@ -2,11 +2,16 @@ nav {
   display: flex;
   font-family: "Raleway";
   justify-content: space-between;
-  align-items: center;    
+  align-items: center; 
+  margin-bottom: 30%;   
   padding: 32px;
   > img {
     width: 64px;
     height: 64px;
+    &:hover {
+        transform: rotate(180deg);
+        transition: 1s all;
+    }
   }
   > div {
     display: flex;
@@ -45,6 +50,6 @@ a {
     height: 20px;
   }
   &:hover {
-    background-color: rgb(250, 64, 64);
+    background-color: rgb(245, 94, 94);
   }
 }
