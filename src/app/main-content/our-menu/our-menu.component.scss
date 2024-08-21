@@ -1,0 +1,57 @@
+section {
+  background-image: url("./../../../assets/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: 64px;
+    color: rgb(159, 9, 8);
+    font-family: "Economica";
+    font-weight: 700;
+    padding-top: 64px;
+    padding-bottom: 32px;
+  }
+  img {
+    width: 300px;
+  }
+}
+
+.our-menu-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 48px;
+  padding-bottom: 64px;
+  .ramens1 {
+    flex-direction: row-reverse;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+  }
+  table {
+    display: flex;    
+    flex-direction: column;
+    width: 350px;
+  }
+  thead {
+    font-family: "Economica";
+    font-size: 32px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+  td {
+    font-family: "Raleway";
+    color: gray;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  tr {
+    display: flex;
+    justify-content: space-between;
+  }
+}
